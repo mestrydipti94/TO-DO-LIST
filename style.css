@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding-top: 2%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#container {
+    width: 70%;
+    min-height: 200px;
+    height: auto;
+    background-color: rgb(92, 61, 120);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+#input {
+    width: 750px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: medium;
+    padding: 10px;
+}
+
+button {
+    height: 50px;
+    border-radius: 20px;
+    width: 150px;
+    font-size: medium;
+    background-color: rgb(14, 181, 47);
+    color: aliceblue;
+    border: none;
+}
+
+button:active {
+    transform: scale(.95);
+}
+
+
+#task-list li {
+    padding: 12px;
+    margin: 30px 80px 10px 80px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+}
+
+
+.delbtn {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    background-color: rgb(142, 7, 14);
+    color: aliceblue;
+    border: none;
+    margin-left: auto;
+}
+
+.delbtn:active {
+    transform: scale(.95);
+}
+
+.task-check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
